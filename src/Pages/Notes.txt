@@ -1,0 +1,14 @@
+*   UseState ----> UseState Returns A Array.
+
+**  UseReducer ----> UseReducer Returns A Array.
+
+*** UseRef ----> UseRef Returns A Object. We Use It To Enter A Dom Element To Access It.
+
+**** UseEffect ----> { https://www.freecodecamp.org/news/react-useeffect-absolute-beginners/ }
+
+***** Difference Between UseState And UseRef ---->
+
+1. UseRef Instantly Get Updated Whereas UseState Not Get Update Instantly.
+2. UseRef Does Not Trigger Re Render Whereas UseState Trigger Re Render.
+
+forwardRef ----> We Use forwardRef To Wrap All Components With (). Its Used To Passing Ref As A Props. 

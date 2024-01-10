@@ -6,7 +6,7 @@ const UseEffectExample = () => {
 
   useEffect(() => {
     console.log("Render.");
-  }, [user.name,user.email]);
+  }, [user.name, user.email]);
 
   return (
     <div>
