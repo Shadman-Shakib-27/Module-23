@@ -5,6 +5,7 @@ import { useContext } from "react";
 // import UseRefExample from "./Pages/UseRefExample";
 import { TThemeContext, ThemeContext } from "./Context/Context";
 import UsersContainer from "./Components/UsersContainer";
+import Select from "./Components/SelectOption";
 // import Profile from "./Components/Profile";
 // import GameResult from "./Components/GameResult";
 
@@ -28,7 +29,13 @@ function App() {
       </button>
       {/* <Profile/> */}
       {/* <GameResult /> */}
-      <UsersContainer/>
+      {/* <UsersContainer/> */}
+      <Select>
+        <Select.SelectOption value="Option1">Option1</Select.SelectOption>
+        <Select.SelectOption value="Option1">Option1</Select.SelectOption>
+        <Select.SelectOption value="Option1">Option1</Select.SelectOption>
+        <Select.SelectOption value="Option1">Option1</Select.SelectOption>
+      </Select>
     </div>
   );
 }
