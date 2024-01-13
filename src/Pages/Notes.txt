@@ -12,3 +12,5 @@
 2. UseRef Does Not Trigger Re Render Whereas UseState Trigger Re Render.
 
 forwardRef ----> We Use forwardRef To Wrap All Components With (). Its Used To Passing Ref As A Props. 
+
+*** Higher Order Components:-> In React, a higher-order component is a function that takes a component as an argument and returns a new component that wraps the original component.

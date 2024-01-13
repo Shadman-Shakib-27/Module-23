@@ -4,6 +4,9 @@
 import { useContext } from "react";
 // import UseRefExample from "./Pages/UseRefExample";
 import { TThemeContext, ThemeContext } from "./Context/Context";
+import UsersContainer from "./Components/UsersContainer";
+// import Profile from "./Components/Profile";
+// import GameResult from "./Components/GameResult";
 
 function App() {
   const { dark, setDark } = useContext(ThemeContext) as TThemeContext;
@@ -17,9 +20,15 @@ function App() {
       {/* <UseReducerExample /> */}
       {/* <UseEffectExample /> */}
       {/* <UseRefExample /> */}
-      <button onClick={() => setDark(!dark)} className="btn btn-primary">
+      <button
+        onClick={() => setDark(!dark)}
+        className="btn bg-orange-300 p-2 rounded-md"
+      >
         Toggle
       </button>
+      {/* <Profile/> */}
+      {/* <GameResult /> */}
+      <UsersContainer/>
     </div>
   );
 }
